@@ -38,6 +38,7 @@ var twoSum = function(nums, target) {
 };
 
 // Using Hastable (Optimized Solution)
+// Time Complexity - O(n)
 var twoSum2 = function(nums, target) {
     const numsMap = new Map();
     
