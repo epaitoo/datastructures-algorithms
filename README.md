@@ -3,3 +3,6 @@
 Implementation of Data Structures and Algorithms in JavaScript. 
 From Questions on LeetCode and Brute Force or Naive approach to efficient appraoach to problems.
 
+## Data Structures
+[Arrays] (Link)
+[HashTables] (Link)
