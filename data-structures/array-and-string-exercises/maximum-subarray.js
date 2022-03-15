@@ -15,7 +15,19 @@
  * @param {number[]} nums
  * @return {number}
  */
-//  var maxSubArray = function(nums) {
-    
-// };
+// NAIVE APPROACH
+// Time Complexity - O(n^2)
+ var maxSubArray = function(nums) {
+    let largestSum = 0;
+    for (let i=0; i < nums.length; i++) {
+        let sum = 0;
+        for (let j=i; j < nums.length; j++) {
+            sum += nums[j]
+            if (sum > largestSum) {
+                largestSum = sum
+            }
+        }
+    }
+    return largestSum;
+};
 
