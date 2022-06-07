@@ -9,33 +9,31 @@
 // Given an array = [2,3,4,5]
 // It should return undefined
 
-
 // NAIVE SOLUTION
 // Time Complexity - O(n^2)
-// Space Complexity - O(1) 
-function firstRecurringCharacter(input){
-    for (let i = 0; i < input.length; i++) {
-        for (let j = 0; j < input.length; j++) {
-            if (input[i] === input[j]) {
-                return input[i]
-            }
-        }
+// Space Complexity - O(1)
+function firstRecurringCharacter(input) {
+  for (let i = 0; i < input.length; i++) {
+    for (let j = 0; j < input.length; j++) {
+      if (input[i] === input[j]) {
+        return input[i];
+      }
     }
-    return undefined
-} 
-
+  }
+  return undefined;
+}
 
 // EFFICIENT APPROACH USING HASHTABLES
 // Time Complexity - O(n)
 // Space Complexity - O(n) - Tradeoff
 function firstRecurringCharacter2(input) {
-    let map = new Map()
-    for (let i = 0; i < input.length; i++) {
-        if (map.has(input[i])) {
-            return input[i]
-        } else {
-            map.set(input[i], i)
-        }
+  let map = new Map();
+  for (let i = 0; i < input.length; i++) {
+    if (map.has(input[i])) {
+      return input[i];
+    } else {
+      map.set(input[i], i);
     }
-    return undefined
+  }
+  return undefined;
 }
