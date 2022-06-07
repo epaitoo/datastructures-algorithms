@@ -2,8 +2,11 @@
 
 Implementation of Data Structures and Algorithms in JavaScript. 
 
-Questions from [Leetcode](https://leetcode.com/) and [Blind 75 list of Top 75 LeetCode Questions to Save Your Time](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
-
+## Questions Resourse
+- [Leetcode](https://leetcode.com/)
+- [Blind 75 list of Top 75 LeetCode Questions to Save Your Time](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+- [Neetcode](https://neetcode.io/)
+- [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
 
 
 ## Data Structures
