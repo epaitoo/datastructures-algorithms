@@ -13,3 +13,4 @@ Implementation of Data Structures and Algorithms in JavaScript.
 - [Arrays](https://github.com/epaitoo/datastructures-algorithms-JS/tree/main/data-structures/array-and-string-exercises)
 - [HashTables](https://github.com/epaitoo/datastructures-algorithms-JS/tree/main/data-structures/hashtables)
 - [LinkedList](https://github.com/epaitoo/datastructures-algorithms-JS/tree/main/data-structures/linkedlist)
+- [Stacks and Queues](https://github.com/epaitoo/datastructures-algorithms-JS/tree/main/data-structures/stacks-and-queues)
