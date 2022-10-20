@@ -1,6 +1,6 @@
 # Data Structures & Algorithms In JavaScript & Java
 
-Implementation of Data Structures and Algorithms in JavaScript. 
+Implementation of Data Structures and Algorithms in JavaScript and Java. 
 
 ## Resource
 - [Leetcode](https://leetcode.com/)
